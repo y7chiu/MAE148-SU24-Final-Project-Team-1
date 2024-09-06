@@ -2,7 +2,7 @@
 ![<img width="450" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
 
 # Table of Contents
-- [Members](members)
+- [Members](#members)
 - [Project Idea - Foresight](#project-idea---foresight)
 - [Instructions for Our Project - What we have done](#instructions-for-our-project---what-we-have-done)
   - [SLAM](#slam)
