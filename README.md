@@ -1,13 +1,26 @@
 # Autonomous Car: Localization and Obstacle Detection
-![<img width="661" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
+![<img width="450" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
 
 # Table of Contents
-- [Project Idea](#project-idea)
-- [Instructions for Our Project](#instructions-for-our-project)
+- [Members](members)
+- [Project Idea - Foresight](#project-idea---foresight)
+- [Instructions for Our Project - What we have done](#instructions-for-our-project---what-we-have-done)
+  - [SLAM](#slam)
+  - [Depthai-ROS Installation](#depthai-ros-installation)
+  - [DepthCloud Obstacle Detection](#depthcloud-obstacle-detection)
+  - [Odometry Localization](#odometry-localization)
+  - [Combination between Depth-Camera and ROS](#combination-between-depth-camera-and-ros)
 - [Future Development](#future-development)
+  - [Costmap](#costmap)
+  - [Path-Planner](#path-planner)
+  - [pointCloud Integration](pointcloud-integration)
 - [Resource](#resource)
+- [License](#license)
 
 ## Team 1 - Summer2024
+
+## Members
+
 Chiu, Yi-Chan - y7chiu@ucsd.edu
 
 Solano, Josue - 
@@ -16,7 +29,7 @@ Lin, Isaac -
 
 Joshi, Pratham -
 
-## Project Idea
+## Project Idea - Foresight
 
 The project applies to the real world, such as hospital emergency, Uber taxi service, finding missing people when signal is mssing, ...,etc.
 
@@ -40,7 +53,7 @@ The project applies to the real world, such as hospital emergency, Uber taxi ser
 
 - Camera, odometry and SLAM map must work hand in hand for localization and path-finding.
 
-## Instructions for Our Project
+## Instructions for Our Project - What we have done
 
 ### SLAM
 
@@ -50,7 +63,7 @@ The project applies to the real world, such as hospital emergency, Uber taxi ser
 
 ### Odometry Localization
 
-### Combination between Depth-Camera and ROS.
+### Combination between Depth-Camera and ROS
 
 ## Future Development
 
@@ -58,9 +71,13 @@ The project applies to the real world, such as hospital emergency, Uber taxi ser
 
 ### Path-Planner
 
-### pointCloud Intergration
+### pointCloud Integration
 
 ## Resource
+
+## License
+
+This project is licensed under the MIT License.
 
 
 
