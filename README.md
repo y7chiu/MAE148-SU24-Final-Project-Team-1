@@ -77,7 +77,7 @@ The project applies to the real world, such as hospital emergency, Uber taxi ser
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
