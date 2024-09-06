@@ -31,7 +31,7 @@ Joshi, Pratham - p1joshi@ucsd.edu
 
 ## Project Idea - Foresight
 
-The project applies to the real world, such as hospital emergency, Uber taxi service, finding missing people when signal is mssing, ...,etc.
+The project applies to the real world, such as hospital emergency, Uber taxi service, finding missing people when the environment has lack of signal, ...,etc.
 
 ***Project Background: The drunkard is in the EBU2, and he wants to go home right now…***
 
