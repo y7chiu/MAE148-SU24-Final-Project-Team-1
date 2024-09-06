@@ -25,7 +25,7 @@ Chiu, Yi-Chan - y7chiu@ucsd.edu
 
 Solano, Josue - 
 
-Lin, Isaac - 
+Lin, Isaac - chl146@ucsd.edu
 
 Joshi, Pratham - p1joshi@ucsd.edu
 
