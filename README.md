@@ -1,5 +1,5 @@
 # Autonomous Car: Localization and Obstacle Detection
-![<img width="450" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)
+[![<img width="450" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)](https://jacobsschool.ucsd.edu/)
 
 # Table of Contents
 - [Members](#members)
