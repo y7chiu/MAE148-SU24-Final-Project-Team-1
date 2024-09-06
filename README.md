@@ -27,7 +27,7 @@ Solano, Josue -
 
 Lin, Isaac - 
 
-Joshi, Pratham -
+Joshi, Pratham - p1joshi@ucsd.edu
 
 ## Project Idea - Foresight
 
