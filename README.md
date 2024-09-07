@@ -8,16 +8,20 @@
   - [SLAM](#slam)
   - [Depthai-ROS Installation](#depthai-ros-installation)
   - [DepthCloud Obstacle Detection](#depthcloud-obstacle-detection)
-  - [Odometry Localization](#odometry-localization)
+  - [Odometry Localization / AMCL Localization](#odometry-localization--amcl-localization)
   - [Combination between Depth-Camera and ROS](#combination-between-depth-camera-and-ros)
 - [Future Development](#future-development)
-  - [Costmap](#costmap)
+  - [Costmaps / pointCloud Integration](#costmaps--pointcloud-integration)
   - [Path-Planner](#path-planner)
-  - [PointCloud Integration](#pointcloud-integration)
 - [Resource](#resource)
 - [License](#license)
 
 ## Team 1 - Summer2024
+
+## Our Car
+
+
+
 
 ## Members
 
@@ -56,24 +60,97 @@ The project applies to the real world, such as hospital emergency, Uber taxi ser
 ## Instructions for Our Project - What we have done
 
 ### SLAM
+Making the slam map by using the laser scan. Here's the instruction for SLAM in section 11.3 of [13May24 - Copy of 100-UCSD Robocar Framework](https://docs.google.com/document/d/1suadghL1apftABkIY9B2dVCq7SvdlS5n5sqQ0ItTAk4/edit#heading=h.tqf2qplbiqoi)
+
+The most important for this part is ros bridge. We need this to save the map and run the map algorithm.
+
+here's are two examples we made for SLAM maps: DIB and EBU2.
+
+![DIB](https://github.com/user-attachments/assets/ee6c5635-b7e7-471f-9204-131c4d127f27)
+![EBU2](https://github.com/user-attachments/assets/8ab23eb6-081b-47f3-8df2-8658ebc524a2)
 
 ### Depthai-ROS Installation
 
+For the obstacle detection, we use the depthai-ROS, which is other than the roboflow, that can detect the objects in 3D/2D and can efficiently communicate with ROS.
+Here's the website we use to install: [Depthai-ROS Installation](https://docs.luxonis.com/software/ros/depthai-ros/build/)
+
+- Tip: If the foxy version of installation could not setup well for ROS2. Try to install in the Noetic version.
+
 ### DepthCloud Obstacle Detection
 
-### Odometry Localization
+After install the package for the depthai-ROS, there is the file called ```depthai_ros_driver``` and depthai_example.
+
+For the depthai_ros_driver, try to run this command.
+
+```
+ros2 launch depthai_ros_driver camera.launch.py (ROS2)
+
+or
+
+roslaunch depthai_ros_driver camera.launch (ROS1)
+```
+to see if the depthai connect to OAK-D-Lite camera. Make sure to subscribe the topic.
+
+Here's the video for the camera: 
+
+[depthai-image1](https://drive.google.com/file/d/1Hsq4bKchXgDa42eyD91rlTCDn-h9Hm3z/view?usp=drive_link)
+
+[depthai-image2](https://drive.google.com/file/d/14D3wZ3K0S6b90Jr54nBLcOdukYUOTeXe/view?usp=drive_link)
+
+### Odometry Localization / AMCL Localization
+
+**Odometry part:**
+
+Using the ROS2 odometry to keep the car localizing on the place corresponding to the loacation of the pre-loaded map.
+
+This might be not precise enough due to some reasons. E.g.: miss alignment.
+
+Our car has this issue that when the car goes forward without steering, the car turns left by itself.
+
+Here's the video of odometry localization: [Odometry-localization](https://drive.google.com/file/d/1KdBV6wFqkR_j1UWYOesLToKH0TXp4PAU/view?usp=drive_link)
+
+Therefore, we use another technique to localize the car. That is called AMCL loaclization.
+
+**AMCL part:**
+
 
 ### Combination between Depth-Camera and ROS
 
-## Future Development
+***In this part, the car must use ROS1 and ROS2 connected with ROS bridge in order to make the car use camera and VESC to move.***
 
-### Costmap
+***If your depthai-ros installed in ROS2, you might need need to use ROS bridge.***
+
+This is the part that we modified and implemented the most for the project.
+
+The important thing of this part is TF tree.
+
+Everything needs to be connected to make the car operating well, so we made the tf broadcasters and publishers to connect each frame.
+
+For instance, in our project, our map is in ROS1, and all the car components are implementing in ROS2, so we could use ```odom``` in ROS2 to connect between ROS1 and ROS2. If the odom is not connected to the other car components, you will see that there is only wheels running on the map.
+
+So this is why TF tree so important.
+
+For ROS1, the command to see the tf tree: ```rosrun tf view_frames```
+
+In this case, you can only use ```frames.gv``` to see the relationship between each frame.
+
+For ROS2, the command to see the tf tree: ```ros2 run tf2_tools view_frames.py```
+
+In this case, you can see both ```frames.gv``` and ```frames.pdf```, but you need to get the extension for the pdf viewer in vscode. 
+
+## Future Development
+***Need further research for this part***
+
+### Costmaps / pointCloud Integration
 
 ### Path-Planner
 
-### pointCloud Integration
+Using the path-planner, which using some path-finding algorithms to acieve this. For example, using Dijkstra's algorithm to find the greatest path to the person who need the car.
 
 ## Resource
+
+- [Install from source from Luxonis Docs](https://docs.luxonis.com/software/ros/depthai-ros/build/)
+- [Depthai-ros-driver](https://docs.luxonis.com/software/ros/depthai-ros/driver/)
 
 ## License
 
