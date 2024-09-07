@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<launch>
-  <!-- Load pre-built map with map_server -->
-  <!-- <arg name="/home/projects/ros1_ws/ms_map_ebu2.yaml" default="$(find ucsd_robocar_nav1_pkg)/maps/ms_map_test.yaml"/> -->
-  <node name="map_server" pkg="map_server" type="map_server" args="/home/projects/ros1_ws/ms_map_test_DIB_corridor.yaml" />
-</launch>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<launch>
-  <!--<include file="$(find ucsd_robocar_actuator1_pkg)/launch/vesc_twist_launch.launch"/>-->
-  <include file="$(find ucsd_robocar_sensor1_pkg)/launch/lidar_ld06.launch"/>
-  <include file="$(find ucsd_robocar_sensor1_pkg)/launch/camera_webcam.launch"/>
-  <include file="$(find ucsd_robocar_sensor1_pkg)/launch/imu_artemis.launch"/>
-</launch>
