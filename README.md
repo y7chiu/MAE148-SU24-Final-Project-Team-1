@@ -3,6 +3,7 @@
 
 # Table of Contents
 - [Members](#members)
+- [Our Car](#our-car)
 - [Project Idea - Foresight](#project-idea---foresight)
 - [Instructions for Our Project - What we have done](#instructions-for-our-project---what-we-have-done)
   - [SLAM](#slam)
