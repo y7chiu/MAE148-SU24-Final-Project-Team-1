@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- car_type options: 
+      1. dsc_car_launch
+      2. mae_148_car_launch
+      3. custom_car_launch
+  /-->
+  <arg name="car_type" value="mae_148_car_launch" />
+  <include file="$(find ucsd_robocar_nav1_pkg)/launch/$(arg car_type).launch"/>
+  <param name="camera_type" type="str" value="$(arg car_type)"/>
+  <node name="ros_racer_calibration_node" pkg="ucsd_robocar_lane_detection1_pkg" type="ros_racer_calibration_node.py" />
+</launch>
