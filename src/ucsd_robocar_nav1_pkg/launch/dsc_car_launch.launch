@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="vesc_twist_node" pkg="ucsd_robocar_actuator1_pkg" type="vesc_twist_node.py" />
+  <include file="$(find ucsd_robocar_sensor1_pkg)/launch/lidar_sicktim.launch"/>
+  <include file="$(find ucsd_robocar_sensor1_pkg)/launch/camera_intelD455.launch"/>
+</launch>

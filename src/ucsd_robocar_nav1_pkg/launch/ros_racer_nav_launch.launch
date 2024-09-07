@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- Load pre-built map with map_server -->
+  <!-- <arg name="/home/projects/ros1_ws/ms_map_ebu2.yaml" default="$(find ucsd_robocar_nav1_pkg)/maps/ms_map_test.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="/home/projects/ros1_ws/src/ucsd_robocar_hub1/final_navigation/map/ms_map_ebu2.yaml" /> -->
+
+  
+  <node name="odom_to_tf_broadcaster" pkg="ucsd_robocar_nav1_pkg" type="odom_to_tf_publisher.py" output="screen" />
+
+  <!-- Start throttle, steering, camera and lidar  -->
+    <!-- car_type options: 
+      1. dsc_car_launch
+      2. mae_148_car_launch
+      3. custom_car_launch
+  /-->
+  <!-- <arg name="car_type" value="mae_148_car_launch" />
+  <include file="$(find ucsd_robocar_nav1_pkg)/launch/$(arg car_type).launch"/> -->
+  
+  <!-- Start lidar localization -->
+  <!-- <include file="$(find ucsd_robocar_nav1_pkg)/launch/costmap.launch"/> -->
+  <include file="$(find ucsd_robocar_nav1_pkg)/launch/laser_to_pose.launch"/>
+
+  <!-- Start RVIZ and load robot into map -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d /opt/ros/noetic/share/hector_slam_launch/rviz_cfg/mapping_demo.rviz" required="true" />
+  <include file="$(find ucsd_robocar_nav1_pkg)/launch/spawn_my_robot.launch"/>
+</launch>

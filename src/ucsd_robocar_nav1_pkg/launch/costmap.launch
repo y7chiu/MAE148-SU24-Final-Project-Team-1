@@ -1,0 +1,17 @@
+<launch>
+  <!-- Set whether to use simulation time or not -->
+  <param name="/use_sim_time" value="false"/>
+
+  <!-- Publishes the voxel grid to rviz for display -->
+  <node pkg="costmap_2d" type="costmap_2d_markers" name="voxel_visualizer">
+    <remap from="voxel_grid" to="costmap/voxel_grid"/>
+  </node>
+
+  <!-- Run the costmap node with local costmap parameters -->
+  <node name="costmap_node" pkg="costmap_2d" type="costmap_2d_node" >
+    <rosparam file="$(find ucsd_robocar_nav1_pkg)/config/local_costmap_params.yaml" command="load"/>
+    <!-- Specify the namespace explicitly -->
+    <param name="local_costmap/global_frame" value="map" />
+    <param name="local_costmap/robot_base_frame" value="base_link" />
+  </node>
+</launch>
