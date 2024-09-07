@@ -122,7 +122,7 @@ the robot's URDF.
 
 The node automatically handles the transform between the map frame and the base frame, so no broadcaster has to be manually written.
 
-![Image}{amcl_schematic.png)
+![Image]{amcl_schematic.png)
 
 
 ### Combination between Depth-Camera and ROS
