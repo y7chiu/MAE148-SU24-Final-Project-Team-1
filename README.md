@@ -20,7 +20,7 @@
 
 ## Our Car
 
-
+![Team1 Car](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/Team1-car.png)
 
 
 ## Members
@@ -143,6 +143,11 @@ In this case, you can see both ```frames.gv``` and ```frames.pdf```, but you nee
 
 ### Costmaps / pointCloud Integration
 
+Dynamically updating the map since we had already set the static map of ebu2.
+
+- Local Costmap with pointcloud data
+- Global Costmap
+
 ### Path-Planner
 
 Using the path-planner, which using some path-finding algorithms to acieve this. For example, using Dijkstra's algorithm to find the greatest path to the person who need the car.
@@ -151,6 +156,10 @@ Using the path-planner, which using some path-finding algorithms to acieve this.
 
 - [Install from source from Luxonis Docs](https://docs.luxonis.com/software/ros/depthai-ros/build/)
 - [Depthai-ros-driver](https://docs.luxonis.com/software/ros/depthai-ros/driver/)
+- [ROS Documentation / ROS Wiki](https://docs.ros.org/)
+- [AMCL](https://docs.nav2.org/configuration/packages/configuring-amcl.html)
+- [AMCL Souce Code](https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl)
+- [ros-noetic-where-am-i-amcl](https://github.com/bmaxdk/ros-noetic-where-am-i-amcl)
 
 ## License
 
