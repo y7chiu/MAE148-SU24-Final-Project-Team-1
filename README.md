@@ -114,6 +114,8 @@ Therefore, we use another technique to localize the car. That is called AMCL loa
 
 **AMCL part:**
 
+In order to account for the odometry drift, we employ an algorithm that compares the static map with the lidar data and provides transformation between the map frame and baselink.
+
 
 ### Combination between Depth-Camera and ROS
 
