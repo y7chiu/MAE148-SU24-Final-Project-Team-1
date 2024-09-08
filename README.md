@@ -121,9 +121,9 @@ to see if the depthai connect to OAK-D-Lite camera. Make sure to subscribe the t
 
 Here's the video for the camera: 
 
-[depthai-image1](https://drive.google.com/file/d/1Hsq4bKchXgDa42eyD91rlTCDn-h9Hm3z/view?usp=drive_link)
+[Depthai-Image1](https://drive.google.com/file/d/1Hsq4bKchXgDa42eyD91rlTCDn-h9Hm3z/view?usp=drive_link)
 
-[depthai-image2](https://drive.google.com/file/d/14D3wZ3K0S6b90Jr54nBLcOdukYUOTeXe/view?usp=drive_link)
+[Depthai-Image2](https://drive.google.com/file/d/14D3wZ3K0S6b90Jr54nBLcOdukYUOTeXe/view?usp=drive_link)
 
 ### Odometry Localization / AMCL Localization
 
@@ -137,7 +137,7 @@ Our car has this issue that when the car goes forward without steering, the car 
 
 Here's the video of odometry localization: 
 
-[Odometry-localization](https://drive.google.com/file/d/1KdBV6wFqkR_j1UWYOesLToKH0TXp4PAU/view?usp=drive_link)
+[Odometry-Localization](https://drive.google.com/file/d/1KdBV6wFqkR_j1UWYOesLToKH0TXp4PAU/view?usp=drive_link)
 
 Therefore, we use another technique to localize the car. That is called AMCL loaclization.
 
@@ -155,7 +155,7 @@ Here are videos about amcl localization corresponding to the pre-loaded map:
 
 [AMCL on Rviz](https://drive.google.com/file/d/1tZ24WpcLGSBS4LHYTWOvVtJ8zM9hVlEv/view)
 
-[AMCL corresponding to the preloaded map on Rviz](https://drive.google.com/file/d/19hQZvwONtIX7JxddA7MgKAqW3bxP13Kv/view)
+[AMCL Corresponding to the Pre-loaded Map on Rviz](https://drive.google.com/file/d/19hQZvwONtIX7JxddA7MgKAqW3bxP13Kv/view)
 
 
 ### Combination between DepthAI ROS and Node Packages on ROS2
@@ -184,7 +184,7 @@ In this case, you can see both ```frames.gv``` and ```frames.pdf```, but you nee
 
 TF tree structure should be similar as ours:
 
-![TF tree](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/screenshot_tf_tree.png)
+![TF Tree](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/screenshot_tf_tree.png)
 
 ## Future Development
 ***Need further research for this part***
@@ -204,7 +204,7 @@ Using the path-planner, with path-finding algorithms to achieve this. For exampl
 
 Will need to create a move_base node to inteface the navigation stack
 
-![move_base_schematic](images/movebase.png)
+![Move_Base_Schematic](images/movebase.png)
 
 ## Resources
 
