@@ -36,6 +36,8 @@ Joshi, Pratham - p1joshi@ucsd.edu - Mechanical Engineering
 
 ## Hardware
 
+Made by Josue Solano by using Onshape.
+
 - Base Plate
 
 - Camera Holder
