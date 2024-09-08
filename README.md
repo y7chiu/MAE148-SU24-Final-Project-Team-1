@@ -24,6 +24,10 @@
 
 ![Car_2](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/car.png)
 
+## Wiring Diagram of Device
+
+![Diagram](https://github.com/y7chiu/MAE148-SU24-Final-Project-Team-1/blob/main/images/Wiring_Diagram_of_Device.png)
+
 ## Members
 
 Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE: Computer Engineering
