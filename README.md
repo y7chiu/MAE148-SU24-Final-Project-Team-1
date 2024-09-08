@@ -1,5 +1,7 @@
 # Robocar: ROS, Localization and Obstacle Detection
-[![<img width="450" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)](https://jacobsschool.ucsd.edu/)
+[![<img width="150" alt="截圖 2024-09-06 11 49 20" src="https://github.com/user-attachments/assets/2be48b3e-bd5f-4d92-b083-6c12f176b6be">](https://jacobsschool.ucsd.edu/sites/default/files/UCSDLogo_JSOE_BlueGold_0_0.png)](https://jacobsschool.ucsd.edu/)
+
+## MAE148 Team 1 Final Project - Summer2024
 
 # Table of Contents
 - [Device](#device)
@@ -17,8 +19,6 @@
   - [Path-Planner](#path-planner)
 - [Resource](#resource)
 - [License](#license)
-
-## MAE148 Team 1 - Summer2024
 
 ## Device
 
@@ -45,13 +45,13 @@
 
 ## Members
 
-Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu
+Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE:Computer Engineering
 
-Solano, Josue - Josolano@ucsd.edu
+Solano, Josue - Josolano@ucsd.edu - Electrical Engineering
 
-Lin, Isaac - chl146@ucsd.edu
+Lin, Isaac - chl146@ucsd.edu - Mechanical Engineering
 
-Joshi, Pratham - p1joshi@ucsd.edu
+Joshi, Pratham - p1joshi@ucsd.edu - Mechanical Engineering
 
 ## Project Idea - Foresight
 
