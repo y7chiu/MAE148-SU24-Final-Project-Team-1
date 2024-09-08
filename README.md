@@ -206,6 +206,7 @@ Will need to create a move_base node to inteface the navigation stack
 - [ROS Documentation / ROS Wiki](https://docs.ros.org/)
 - [AMCL](https://docs.nav2.org/configuration/packages/configuring-amcl.html)
 - [AMCL Souce Code](https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl)
+- [Odometry Localization / AMCL Localization](https://answers.ros.org/question/387751/difference-between-amcl-and-odometry-source/)
 - [ros-noetic-where-am-i-amcl](https://github.com/bmaxdk/ros-noetic-where-am-i-amcl)
 - [move_base](http://wiki.ros.org/move_base?distro=noetic)
 - [Obstacle Layer Parameters](https://docs.nav2.org/configuration/packages/costmap-plugins/obstacle.html)
