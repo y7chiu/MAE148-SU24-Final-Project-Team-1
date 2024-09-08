@@ -18,7 +18,7 @@
 - [Resource](#resource)
 - [License](#license)
 
-## Team 1 - Summer2024
+## MAE148 Team 1 - Summer2024
 
 ## Device
 
