@@ -37,7 +37,7 @@ Joshi, Pratham - p1joshi@ucsd.edu - Mechanical Engineering
 
 ## Wiring Diagram of Device
 
-![Diagram](https://github.com/y7chiu/MAE148-SU24-Final-Project-Team-1/blob/main/images/Wiring_Diagram_of_Device.png)
+![Diagram](https://github.com/y7chiu/MAE148-SU24-Final-Project-Team-1/blob/main/images/wiring_diagram_of_device.png)
 
 ## Hardware
 
