@@ -116,13 +116,17 @@ Therefore, we use another technique to localize the car. That is called AMCL loa
 
 In order to account for the odometry drift, we employ an algorithm that compare the pre-loaded map against the lidar data and extrapolate the localization error from dead reckoning. 
 
-In order for the amcl algorithm to work, all the frames in the tf tree need to be explicitly linked to the map frame (e.g. laser to base_link), and the base_frame, global_frame, laser_frame in the amcl node need to be consistent with 
-
-the robot's URDF.
+In order for the amcl algorithm to work, all the frames in the tf tree need to be explicitly linked to the map frame (e.g. laser to base_link), and the base_frame, global_frame, laser_frame in the amcl node need to be consistent with the robot's URDF.
 
 The node automatically handles the transform between the map frame and the base frame, so no broadcaster has to be manually written.
 
 ![Image](amcl_schematic.png)
+
+Here are amcl localization corresponding to the pre-loaded map:
+
+[AMCL on Rviz](https://drive.google.com/file/d/1tZ24WpcLGSBS4LHYTWOvVtJ8zM9hVlEv/view)
+
+[AMCL corresponding to the preloaded map on Rviz](https://drive.google.com/file/d/19hQZvwONtIX7JxddA7MgKAqW3bxP13Kv/view)
 
 
 ### Combination between Depth-Camera and ROS
