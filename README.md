@@ -25,14 +25,11 @@
 
 ## Hardware
 
-- Base Plate:
-[Base Plate](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/hardware/base%20plate.stl)
+- Base Plate
 
-- Camera Holder:
-[Camera Holder](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/hardware/CameraHolder.stl)
+- Camera Holder
 
-- Camera Protective Case:
-[Camera Protective Case](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/hardware/CameraProtectiveCase.STL)
+- Camera Protective Case
 
 - Lidar Stand
 
