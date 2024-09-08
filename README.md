@@ -119,7 +119,7 @@ roslaunch depthai_ros_driver camera.launch (ROS1)
 ```
 to see if the depthai connect to OAK-D-Lite camera. Make sure to subscribe the topic.
 
-Here's the video for the camera: 
+Here are videos for the camera: 
 
 [Depthai-Image1](https://drive.google.com/file/d/1Hsq4bKchXgDa42eyD91rlTCDn-h9Hm3z/view?usp=drive_link)
 
