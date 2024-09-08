@@ -21,7 +21,7 @@
 
 ## Our Car
 
-![Team1 Car](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/Team1-car.png)
+![Car_2](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/car.png)
 
 
 ## Members
