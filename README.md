@@ -4,9 +4,9 @@
 ## MAE148 Team 1 Final Project - Summer2024
 
 # Table of Contents
+- [Members](#members)
 - [Device](#device)
 - [Wiring Diagram of Device](#wiring-diagram-of-device)
-- [Members](#members)
 - [Hardware](#hardware)
 - [Project Idea - Foresight](#project-idea---foresight)
 - [Instructions for Our Project - What We Have Done](#instructions-for-our-project---what-we-have-done)
@@ -21,14 +21,6 @@
 - [Resources](#resources)
 - [License](#license)
 
-## Device
-
-![Car_2](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/car.png)
-
-## Wiring Diagram of Device
-
-![Diagram](https://github.com/y7chiu/MAE148-SU24-Final-Project-Team-1/blob/main/images/Wiring_Diagram_of_Device.png)
-
 ## Members
 
 Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE: Computer Engineering
@@ -38,6 +30,14 @@ Solano, Josue - Josolano@ucsd.edu - Electrical Engineering
 Lin, Isaac - chl146@ucsd.edu - Mechanical Engineering
 
 Joshi, Pratham - p1joshi@ucsd.edu - Mechanical Engineering
+
+## Device
+
+![Car_2](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/car.png)
+
+## Wiring Diagram of Device
+
+![Diagram](https://github.com/y7chiu/MAE148-SU24-Final-Project-Team-1/blob/main/images/Wiring_Diagram_of_Device.png)
 
 ## Hardware
 
