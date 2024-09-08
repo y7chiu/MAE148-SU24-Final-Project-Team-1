@@ -23,6 +23,27 @@
 
 ![Car_2](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/car.png)
 
+## Hardware
+
+- Base Plate:
+[Base Plate](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/hardware/base%20plate.stl)
+
+- Camera Holder:
+[Camera Holder](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/hardware/CameraHolder.stl)
+
+- Camera Protective Case:
+[Camera Protective Case](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/hardware/CameraProtectiveCase.STL)
+
+- Lidar Stand
+
+- Jetson Nano Case
+
+- Car Side Protection
+
+- GPS Stand
+
+- LED Light Decoration
+
 
 ## Members
 
