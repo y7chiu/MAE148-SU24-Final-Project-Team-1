@@ -122,7 +122,7 @@ The node automatically handles the transform between the map frame and the base 
 
 ![Image](amcl_schematic.png)
 
-Here are amcl localization corresponding to the pre-loaded map:
+Here are videos about amcl localization corresponding to the pre-loaded map:
 
 [AMCL on Rviz](https://drive.google.com/file/d/1tZ24WpcLGSBS4LHYTWOvVtJ8zM9hVlEv/view)
 
