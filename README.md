@@ -26,7 +26,7 @@
 
 ## Members
 
-Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE:Computer Engineering
+Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE: Computer Engineering
 
 Solano, Josue - Josolano@ucsd.edu - Electrical Engineering
 
