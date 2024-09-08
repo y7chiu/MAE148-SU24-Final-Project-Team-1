@@ -26,7 +26,7 @@
 
 ## Members
 
-Chiu, Yi-Chan - y7chiu@ucsd.edu
+Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu
 
 Solano, Josue - Josolano@ucsd.edu
 
