@@ -125,7 +125,7 @@ Here's the video for the camera:
 
 Using the ROS2 odometry to keep the car localizing on the place corresponding to the loacation of the pre-loaded map.
 
-This might be not precise enough due to some reasons. E.g.: miss alignment.
+This might be not precise enough due to some reasons. E.g.: misalignment.
 
 Our car has this issue that when the car goes forward without steering, the car turns left by itself.
 
