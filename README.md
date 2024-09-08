@@ -90,7 +90,7 @@ Making the slam map by using the laser scan. Here's the instruction for SLAM in 
 
 The most important for this part is ros bridge. We need this to save the map and run the map algorithm.
 
-here's are two examples we made for SLAM maps: DIB and EBU2.
+Here's are two examples we made for SLAM maps: DIB and EBU2.
 
 ![DIB](https://github.com/user-attachments/assets/ee6c5635-b7e7-471f-9204-131c4d127f27)
 ![EBU2](https://github.com/user-attachments/assets/8ab23eb6-081b-47f3-8df2-8658ebc524a2)
