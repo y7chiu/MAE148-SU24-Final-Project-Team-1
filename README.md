@@ -6,12 +6,12 @@
 - [Hardware](#hardware)
 - [Members](#members)
 - [Project Idea - Foresight](#project-idea---foresight)
-- [Instructions for Our Project - What we have done](#instructions-for-our-project---what-we-have-done)
+- [Instructions for Our Project - What We Have Done](#instructions-for-our-project---what-we-have-done)
   - [SLAM](#slam)
   - [Depthai-ROS Installation](#depthai-ros-installation)
   - [DepthCloud Obstacle Detection](#depthcloud-obstacle-detection)
   - [Odometry Localization / AMCL Localization](#odometry-localization--amcl-localization)
-  - [Combination between DepthAI ROS and node packages on ROS2](#combination-between-depthai-ros-and-node-packages-on-ros2)
+  - [Combination between DepthAI ROS and Node Packages on ROS2](#combination-between-depthai-ros-and-node-packages-on-ros2)
 - [Future Development](#future-development)
   - [Costmaps / pointCloud Integration](#costmaps--pointcloud-integration)
   - [Path-Planner](#path-planner)
@@ -77,7 +77,7 @@ The project applies to the real world, such as hospital emergency, Uber taxi ser
 
 - Camera, odometry and SLAM map must work hand in hand for localization and path-finding.
 
-## Instructions for Our Project - What we have done
+## Instructions for Our Project - What We Have Done
 
 ### SLAM
 Making the slam map by using the laser scan. Here's the instruction for SLAM in section 11.3 of [13May24 - Copy of 100-UCSD Robocar Framework](https://docs.google.com/document/d/1suadghL1apftABkIY9B2dVCq7SvdlS5n5sqQ0ItTAk4/edit#heading=h.tqf2qplbiqoi)
@@ -152,7 +152,7 @@ Here are videos about amcl localization corresponding to the pre-loaded map:
 [AMCL corresponding to the preloaded map on Rviz](https://drive.google.com/file/d/19hQZvwONtIX7JxddA7MgKAqW3bxP13Kv/view)
 
 
-### Combination between DepthAI ROS and node packages on ROS2
+### Combination between DepthAI ROS and Node Packages on ROS2
 
 ***If DepthAI ROS is installed on noetic, the car must use ROS bridge in order to make the car use camera and VESC to move.***
 
@@ -189,7 +189,7 @@ Dynamically updating the map since we had already set the static map of ebu2.
 
 - Local Costmap with pointcloud data
   - Obstacle layer
-  - inflation layer
+  - Inflation layer
 - Global Costmap
 
 ### Path-Planner
