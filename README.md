@@ -208,6 +208,7 @@ Will need to create a move_base node to inteface the navigation stack
 - [AMCL Souce Code](https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl)
 - [ros-noetic-where-am-i-amcl](https://github.com/bmaxdk/ros-noetic-where-am-i-amcl)
 - [move_base](http://wiki.ros.org/move_base?distro=noetic)
+- [Our Final Presentation](https://docs.google.com/presentation/d/16UmXvr271ed6BNB9TPYkNkjyzWxYnqczA_SpxLKs7tY/edit#slide=id.p)
 
 ## License
 
