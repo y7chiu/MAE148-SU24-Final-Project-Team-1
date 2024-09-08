@@ -188,11 +188,16 @@ TF tree should be similar as this:
 Dynamically updating the map since we had already set the static map of ebu2.
 
 - Local Costmap with pointcloud data
+  - Obstacle later
 - Global Costmap
 
 ### Path-Planner
 
-Using the path-planner, which using some path-finding algorithms to acieve this. For example, using Dijkstra's algorithm to find the greatest path to the person who need the car.
+Using the path-planner, with path-finding algorithms to achieve this. For example, using Dijkstra's algorithm to find the greatest path to the person who need the car.
+
+Will need to create a move_base node to inteface the navigation stack
+
+![move_base_schematic](images/movebase.png)
 
 ## Resource
 
@@ -202,6 +207,7 @@ Using the path-planner, which using some path-finding algorithms to acieve this.
 - [AMCL](https://docs.nav2.org/configuration/packages/configuring-amcl.html)
 - [AMCL Souce Code](https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl)
 - [ros-noetic-where-am-i-amcl](https://github.com/bmaxdk/ros-noetic-where-am-i-amcl)
+- [move_base](http://wiki.ros.org/move_base?distro=noetic)
 
 ## License
 
