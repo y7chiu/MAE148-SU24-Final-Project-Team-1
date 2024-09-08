@@ -17,7 +17,7 @@
 - [Future Development](#future-development)
   - [Costmaps / PointCloud Integration](#costmaps--pointcloud-integration)
   - [Path-Planner](#path-planner)
-- [Resource](#resource)
+- [Resources](#resources)
 - [License](#license)
 
 ## Device
@@ -199,7 +199,7 @@ Will need to create a move_base node to inteface the navigation stack
 
 ![move_base_schematic](images/movebase.png)
 
-## Resource
+## Resources
 
 - [Install from source from Luxonis Docs](https://docs.luxonis.com/software/ros/depthai-ros/build/)
 - [Depthai-ros-driver](https://docs.luxonis.com/software/ros/depthai-ros/driver/)
