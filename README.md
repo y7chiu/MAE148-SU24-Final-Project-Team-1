@@ -120,7 +120,7 @@ In order for the amcl algorithm to work, all the frames in the tf tree need to b
 
 The node automatically handles the transform between the map frame and the base frame, so no broadcaster has to be manually written.
 
-![Image](amcl_schematic.png)
+![Image](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/amcl_schematic.png)
 
 Here are videos about amcl localization corresponding to the pre-loaded map:
 
