@@ -13,7 +13,7 @@
   - [Odometry Localization / AMCL Localization](#odometry-localization--amcl-localization)
   - [Combination between DepthAI ROS and Node Packages on ROS2](#combination-between-depthai-ros-and-node-packages-on-ros2)
 - [Future Development](#future-development)
-  - [Costmaps / pointCloud Integration](#costmaps--pointcloud-integration)
+  - [Costmaps / PointCloud Integration](#costmaps--pointcloud-integration)
   - [Path-Planner](#path-planner)
 - [Resource](#resource)
 - [License](#license)
