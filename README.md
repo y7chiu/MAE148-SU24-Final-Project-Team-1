@@ -152,11 +152,11 @@ Here are videos about amcl localization corresponding to the pre-loaded map:
 [AMCL corresponding to the preloaded map on Rviz](https://drive.google.com/file/d/19hQZvwONtIX7JxddA7MgKAqW3bxP13Kv/view)
 
 
-### Combination between Depth-Camera and ROS
+### Combination between DepthAI ROS and node packages on ROS2
 
-***In this part, the car must use ROS1 and ROS2 connected with ROS bridge in order to make the car use camera and VESC to move.***
+***If DepthAI ROS is installed on noetic, the car must use ROS bridge in order to make the car use camera and VESC to move.***
 
-***If your depthai-ros installed in ROS2, you might need need to use ROS bridge.***
+***If your DepthAI-ROS installed in ROS2, no need to use ROS Bridge.***
 
 This is the part that we modified and implemented the most for the project.
 
@@ -183,12 +183,13 @@ TF tree should be similar as this:
 ## Future Development
 ***Need further research for this part***
 
-### Costmaps / pointCloud Integration
+### Costmaps / PointCloud Integration
 
 Dynamically updating the map since we had already set the static map of ebu2.
 
 - Local Costmap with pointcloud data
-  - Obstacle later
+  - Obstacle layer
+  - inflation layer
 - Global Costmap
 
 ### Path-Planner
