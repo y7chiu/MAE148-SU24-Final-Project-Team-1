@@ -73,7 +73,9 @@ here's are two examples we made for SLAM maps: DIB and EBU2.
 ### Depthai-ROS Installation
 
 For the obstacle detection, we use the depthai-ROS, which is other than the roboflow, that can detect the objects in 3D/2D and can efficiently communicate with ROS.
-Here's the website we use to install: [Depthai-ROS Installation](https://docs.luxonis.com/software/ros/depthai-ros/build/)
+Here's the website we use to install: 
+
+[Depthai-ROS Installation](https://docs.luxonis.com/software/ros/depthai-ros/build/)
 
 - Tip: If the foxy version of installation could not setup well for ROS2. Try to install in the Noetic version.
 
@@ -108,7 +110,9 @@ This might be not precise enough due to some reasons. E.g.: miss alignment.
 
 Our car has this issue that when the car goes forward without steering, the car turns left by itself.
 
-Here's the video of odometry localization: [Odometry-localization](https://drive.google.com/file/d/1KdBV6wFqkR_j1UWYOesLToKH0TXp4PAU/view?usp=drive_link)
+Here's the video of odometry localization: 
+
+[Odometry-localization](https://drive.google.com/file/d/1KdBV6wFqkR_j1UWYOesLToKH0TXp4PAU/view?usp=drive_link)
 
 Therefore, we use another technique to localize the car. That is called AMCL loaclization.
 
