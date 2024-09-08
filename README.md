@@ -153,6 +153,10 @@ For ROS2, the command to see the tf tree: ```ros2 run tf2_tools view_frames.py``
 
 In this case, you can see both ```frames.gv``` and ```frames.pdf```, but you need to get the extension for the pdf viewer in vscode. 
 
+TF tree should be similar as this:
+
+![TF tree](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/screenshot_tf_tree.png)
+
 ## Future Development
 ***Need further research for this part***
 
