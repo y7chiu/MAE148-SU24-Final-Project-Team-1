@@ -11,7 +11,7 @@
   - [Depthai-ROS Installation](#depthai-ros-installation)
   - [DepthCloud Obstacle Detection](#depthcloud-obstacle-detection)
   - [Odometry Localization / AMCL Localization](#odometry-localization--amcl-localization)
-  - [Combination between Depth-Camera and ROS](#combination-between-depth-camera-and-ros)
+  - [Combination between DepthAI ROS and node packages on ROS2](#combination-between-depthai-ros-and-node-packages-on-ros2)
 - [Future Development](#future-development)
   - [Costmaps / pointCloud Integration](#costmaps--pointcloud-integration)
   - [Path-Planner](#path-planner)
