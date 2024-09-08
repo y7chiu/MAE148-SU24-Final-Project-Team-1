@@ -5,8 +5,8 @@
 
 # Table of Contents
 - [Device](#device)
-- [Hardware](#hardware)
 - [Members](#members)
+- [Hardware](#hardware)
 - [Project Idea - Foresight](#project-idea---foresight)
 - [Instructions for Our Project - What We Have Done](#instructions-for-our-project---what-we-have-done)
   - [SLAM](#slam)
@@ -23,6 +23,16 @@
 ## Device
 
 ![Car_2](https://github.com/y7chiu/Summer-2024-final-project-team-1/blob/main/images/car.png)
+
+## Members
+
+Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE:Computer Engineering
+
+Solano, Josue - Josolano@ucsd.edu - Electrical Engineering
+
+Lin, Isaac - chl146@ucsd.edu - Mechanical Engineering
+
+Joshi, Pratham - p1joshi@ucsd.edu - Mechanical Engineering
 
 ## Hardware
 
@@ -41,17 +51,6 @@
 - GPS Stand
 
 - LED Light Decoration
-
-
-## Members
-
-Chiu, Yi-Chan(Frankie) - y7chiu@ucsd.edu - ECE:Computer Engineering
-
-Solano, Josue - Josolano@ucsd.edu - Electrical Engineering
-
-Lin, Isaac - chl146@ucsd.edu - Mechanical Engineering
-
-Joshi, Pratham - p1joshi@ucsd.edu - Mechanical Engineering
 
 ## Project Idea - Foresight
 
