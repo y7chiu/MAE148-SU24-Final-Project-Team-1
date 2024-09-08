@@ -5,6 +5,7 @@
 
 # Table of Contents
 - [Device](#device)
+- [Wiring Diagram of Device](#wiring-diagram-of-device)
 - [Members](#members)
 - [Hardware](#hardware)
 - [Project Idea - Foresight](#project-idea---foresight)
