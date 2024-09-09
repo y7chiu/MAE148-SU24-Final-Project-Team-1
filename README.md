@@ -200,7 +200,7 @@ Dynamically updating the map since we had already set the static map of ebu2.
 
 ### Path-Planner
 
-Using the path-planner, with path-finding algorithms to achieve this. For example, using Dijkstra's algorithm to find the greatest path forward to the destination of the people who need this car.
+Using the path-planner, with path-finding algorithms to achieve this. For example, using Dijkstra's algorithm to find the greatest path to the place of the people who need this car.
 
 Will need to create a move_base node to inteface the navigation stack
 
